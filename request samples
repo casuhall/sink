@@ -1,0 +1,40 @@
+
+### Récupération de l'historique des appels
+GET http://localhost:8081/
+
+### 
+GET http://localhost:8080/ressource1/?key1=value1&key2[subval1]=subval1&key2[subval2]=sub2
+Accept: application/json
+
+###
+POST http://localhost:8080/ressource2/
+Content-Type: application/json
+Accept: application/gzip
+
+{
+    "key1": "val1",
+    "key2": {
+        "sub1":"1",
+        "sub2":"2"
+    }
+}
+
+###
+POST http://localhost:8080/ressource3/
+Content-Type: application/x-www-form-urlencoded
+Accept: application/gzip
+
+key=value&key2=value2
+
+###
+POST http://localhost:8080/ressource4/
+Content-Type: text/xml
+Accept: application/gzip
+
+<balise prop="value">content</balise>
+
+###
+POST http://localhost:8080/ressource4/
+Content-Type: application/octet-stream
+
+<balise prop="value">content</balise>
