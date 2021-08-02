@@ -1,0 +1,28 @@
+{
+  "name": "sink",
+  "version": "1.0.0",
+  "description": "Absorb everything sent its way... a real botomless pit !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casuhall/sink.git"
+  },
+  "keywords": [
+    "dev",
+    "utils",
+    "rest",
+    "api"
+  ],
+  "author": "CasuHall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/casuhall/sink/issues"
+  },
+  "homepage": "https://github.com/casuhall/sink#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
